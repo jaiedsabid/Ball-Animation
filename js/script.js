@@ -30,9 +30,11 @@ startButton.onclick = () => {
 
     startButton.style.backgroundColor = 'rgba(242, 242, 242, 0.8)';
     startButton.style.color = 'gray';
+    startButton.style.cursor = 'default';
 
     stopButton.style.backgroundColor = 'rgba(51, 230, 51, 0.8)';
     stopButton.style.color = 'rgb(255, 255, 255)';
+    stopButton.style.cursor = 'pointer';
 };
 
 stopButton.onclick = () => {
@@ -42,8 +44,10 @@ stopButton.onclick = () => {
 
     stopButton.style.backgroundColor = 'rgba(242, 242, 242, 0.8)';
     stopButton.style.color = 'gray';
+    stopButton.style.cursor = 'default';
 
     startButton.style.backgroundColor = 'rgba(51, 230, 51, 0.8)';
     startButton.style.color = 'rgb(255, 255, 255)';
+    startButton.style.cursor = 'pointer';
 
 };
