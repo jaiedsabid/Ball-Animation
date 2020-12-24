@@ -15,11 +15,18 @@ body {
 
 button {
     width: 50px;
-    height: 30px
+    height: 25px;
+    border: 0px;
+    border-radius: 3px;
 }
 
 button:nth-child(even){
     margin-left: 15px;
+}
+
+button:nth-child(1){
+    background-color: rgba(51, 230, 51, 0.8);
+    color: rgb(255, 255, 255);
 }
 
 .btn-group {
@@ -27,7 +34,6 @@ button:nth-child(even){
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
     margin: auto;
     padding: 10px;
     background-color: tomato;

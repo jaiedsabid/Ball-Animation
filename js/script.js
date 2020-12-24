@@ -27,10 +27,23 @@ startButton.onclick = () => {
     animateBall();
     startButton.disabled = true;
     stopButton.disabled = false;
+
+    startButton.style.backgroundColor = 'rgba(242, 242, 242, 0.8)';
+    startButton.style.color = 'gray';
+
+    stopButton.style.backgroundColor = 'rgba(51, 230, 51, 0.8)';
+    stopButton.style.color = 'rgb(255, 255, 255)';
 };
 
 stopButton.onclick = () => {
     cancelAnimationFrame(animationID);
     startButton.disabled = false;
     stopButton.disabled = true;
+
+    stopButton.style.backgroundColor = 'rgba(242, 242, 242, 0.8)';
+    stopButton.style.color = 'gray';
+
+    startButton.style.backgroundColor = 'rgba(51, 230, 51, 0.8)';
+    startButton.style.color = 'rgb(255, 255, 255)';
+
 };
