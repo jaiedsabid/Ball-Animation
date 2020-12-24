@@ -28,7 +28,7 @@ startButton.onclick = () => {
     startButton.disabled = true;
     stopButton.disabled = false;
 
-    startButton.style.backgroundColor = 'rgba(242, 242, 242, 0.8)';
+    startButton.style.backgroundColor = 'rgba(242, 242, 242, 0.4)';
     startButton.style.color = 'gray';
     startButton.style.cursor = 'default';
 
@@ -42,7 +42,7 @@ stopButton.onclick = () => {
     startButton.disabled = false;
     stopButton.disabled = true;
 
-    stopButton.style.backgroundColor = 'rgba(242, 242, 242, 0.8)';
+    stopButton.style.backgroundColor = 'rgba(242, 242, 242, 0.4)';
     stopButton.style.color = 'gray';
     stopButton.style.cursor = 'default';
 

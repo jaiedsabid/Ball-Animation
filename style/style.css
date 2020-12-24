@@ -21,8 +21,9 @@ button {
     cursor: pointer;
 }
 
-button:nth-child(even){
+button:nth-child(2){
     margin-left: 15px;
+    cursor: default;
 }
 
 button:nth-child(1){
